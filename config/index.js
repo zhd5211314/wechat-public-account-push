@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx833585f1bdf3a2a1",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "7a1068c78482535b6e29ffa2f52cccb7",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -57,20 +57,20 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
+  USERS: [  oDlxF6PCpTKniw0LfCgcqNiuByOs
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "阿华",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oDlxF6PCpTKniw0LfCgcqNiuByOs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "1Ij2kxmC0-TuX9Pr2p2Dv3fB8FWMsAf43LATTscb0bU",
       // 所在省份
-      province: "广东",
+      province: "江西",
       // 所在城市
-      city: "肇庆",
+      city: "南昌",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '2-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
